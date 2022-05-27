@@ -49,4 +49,53 @@ textarea,
 select {
   font: inherit;
 }
+
+@font-face {
+  font-family: 'Slackey';
+  src: url(../../assets/fonts/Slackey/Slackey-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'pokemon';
+  src: url(../../assets/fonts/Pokemon-Solid.ttf);
+}
+
+.poke-font {
+  color: #F7CE46;
+  font-family: "pokemon", sans-serif;
+  letter-spacing: .25rem;
+  text-shadow: 1px 1px 1px #3F4CC2, -1px 1px 0.5px #3F4CC2, -2px 1px 0.5px #233D74, 0px -1px 0px #3F4CC2;
+}
+
+header {
+  background-color: #F7CE46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: auto;
+}
+
+footer {
+  background-color: #F7CE46;
+  padding: 1rem;
+}
+
+#pokedex-container {
+  background-color: pink;
+  height: 80vh;
+}
 /*# sourceMappingURL=main.css.map */
